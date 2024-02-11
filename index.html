@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippets</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p class="intro">Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+    <main class="main">
+        <section class="card">
+            
+            <figure class="code-card row-one">
+                <h2 class="card-header">Flexbox Row</h2>    
+                <p class="content">Use these three properties to create a Flexbox row layout.</p>
+                <pre class="snippet"><code> .row { 
+                    display: flex; 
+                    flex-direction: row; 
+                    flex-wrap: wrap;
+                }</code></pre>
+            </figure>
+        </section>
+        <section class="card">
+            <figure class="code-card row-one">
+                <h2 class="card-header">Flexbox Column</h2>    
+                <p class="content">Use this to create a Flexbox column layout.</p>
+                <pre class="snippet"><code> .column {
+                    display: flex;
+                    flex-direction: column
+                  }</code></pre>
+            </figure>
+        </section>
+        <section class="card">
+            <figure class="code-card row-one">
+                <h2 class="card-header">CSS Grid Layout</h2>    
+                <p class="content">Build a 12-column layout using CSS Grid</p>
+                <pre class="snippet"><code> .grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat(12, 1fr);
+                  }</code></pre>
+            </figure>
+        </section>
+        <section class="card">
+            <figure class="code-card row-two">
+                <h2 class="card-header">Linear Gradients</h2>    
+                <p class="content">This will create a background linear gradient from top to bottom.</p>
+                <pre class="snippet"><code> .linear-gradient-background {
+                    background-image: linear-
+                    gradient(
+                      rgba(232, 102, 236, 0.3) 0%,
+                      rgba(232, 102, 236, 0.6) 100%
+                    );
+                  }</code></pre>
+            </figure>
+        </section>
+        <section class="card">
+            <figure class="code-card row-two">
+                <h2 class="card-header">Box Transition Glow</h2>    
+                <p class="content">Use transition and box shadows to glow on hover.</p>
+                <pre class="snippet"><code> .code-card .card-header {
+                    border-radius: 8px;
+                    transition: all 0.5s ease-in-out;
+                  }
+                  
+                  .code-card:hover,
+                  .code-card:hover .card-header {
+                    box-shadow: inset 0px 0px 8px 
+                    rgba(232, 102, 236, 1), 0 0 15px 
+                    rgba(232, 102, 236, 1);
+                  }</code></pre>
+            </figure>
+        </section>
+        <section class="card">
+            <figure class="code-card row-two">
+                <h2 class="card-header">Overlay Card with Title</h2>    
+                <p class="content">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                <pre class="snippet"><code> .card-header {
+                    position: relative;
+                    margin-top: -20px;
+                  }</code></pre>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
