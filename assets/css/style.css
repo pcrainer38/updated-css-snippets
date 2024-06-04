@@ -1,8 +1,8 @@
 :root {
-    --headers: rgb(73, 236, 220);
+    --headers: rgba(232, 102, 236, 0.6);
     --white: antiquewhite;
     --heliotrope: #e866ec;
-    --grey: rgb(85, 85, 85);
+    --grey: rgb(48, 47, 47);
 }
 
 body {
@@ -67,7 +67,7 @@ figure {
     border-radius: 5px;
     margin-right: 15px;
     margin-left: 15px;
-    padding: 5px;
+    padding: 15px;
 }
 
 .snippet {
